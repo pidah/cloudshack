@@ -33,8 +33,8 @@ def launch_instance(count):
     print(_green("Started........"))
     print(_yellow("...............Creating EC2 instance(s)..."))
     
-    conn = boto.connect_ec2(aws_access_key_id="AKIAJKCVNOUPF4YXDK6Q", 
-    aws_secret_access_key="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")
+    conn = boto.connect_ec2(aws_access_key_id="XXXXX", 
+    aws_secret_access_key="XXXXXX")
 
     image = conn.get_all_images("ami-4b814f22")
  
