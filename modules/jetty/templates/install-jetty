@@ -1,0 +1,14 @@
+#!/bin/sh -x
+
+download_url="http://dist.codehaus.org/jetty"
+#version="8.1.6"
+#build_number="v20120903"
+
+        cd /tmp
+        wget -nc $download_url/jetty-hightide-$version/jetty-hightide-<%= version %>.<%= build_number %>.zip
+	rm -rf jetty
+	mkdir jetty
+	cd jetty
+	/usr/bin/unzip ../jetty-hightide-<%= version %>.<%= build_number %>.zip
+	mv -n jetty-hightide-<%= version %>.<%= build_number %> /usr/local/jetty
+

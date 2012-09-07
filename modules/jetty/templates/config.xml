@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config control-bind="127.0.0.1:8059" version="1.0" admin-hash="DF9E98F96A0B851E711085B54251C9AB">
+    <!-- see example-config.xml and config.xsd for more documentation -->
+
+ <license SID="BGZB-ME7J-H3RV-ECEY"><crucible>AAABGg0ODAoPeNptkF9LwzAUxd/zKQI+Z7TVqRsE3NKglXYdWxUUX+7i1QXatKRpsd/edn+oig8Xw
+ r3nd8+5ucgapAl01POp782DYH41oyLMaOD5AQmxVlZXTpeGC9sovcvxbU5lC3kDQ5cIi4dHCA75w
+ DBvyryAiNI4UG4FBfI1OrQ0eoc9Uaclk1grNDVmXYUHjUiTRG5EtIjPqExA57wa2Inu2TvQhYaJK
+ gsy+nNnGyS90jg0YBTKr0rb7keaa+b5o+2qKXZo04+nGm3NmU9S+wlG18dli8FhFPchdItHi61c8
+ b5Y7E9nt0F/4BZtizYK+fL+dckSefPIHi43z0wK+UJO1/XTOAp/YafJ/zHXjVV7qPHvZ34DIQ6H5
+ jAsAhQUkgtN9o5oHC2DhiFkbTbmKMDX3wIUWiC9X6atDX7hH3QCJ0lyoJscW1Y=X02ea</crucible><fisheye>Evaluation</fisheye></license>
+ <web-server>
+         <http bind=":8060"/>
+             </web-server>
+                 <api enabled="false"/>
+                     <security allow-anon="true" allow-cru-anon="true">
+                       <built-in>
+                          <signup enabled="true"/>
+                          </built-in>
+                          <admins><system-admins/></admins><avatar><disabled/></avatar></security>
+                              <properties><property name="com.atlassian.upm.log.PluginSettingsAuditLogService:log:upm_audit_log" value="%23java.util.List%0A%7B%22username%22%3A%22FishEye%22%2C%22date%22%3A1335884873156%2C%22i18nKey%22%3A%22upm.auditLog.system.startup%22%2C%22params%22%3A%5B%5D%7D"/><property name="com.atlassian.applinks.applinks-plugin:build" value="10"/></properties><repository-defaults>
+                                      <linker/>
+                                              <allow/>
+                                                      <tarball enabled="false" maxFileCount="0"/>
+                                                              <security allow-anon="true" allow-logged-in="false" allow-anon-write="false" allow-logged-in-write="true"><required-groups/><required-write-groups/></security>
+                                                                  <text-indexer enabled="true"/><watches enabled="true"/><commit-message-syntax syntax="plain"/><changeset-discussions enabled="true"/></repository-defaults>
+                                                                  <check-for-updates/><database type="mysql"><connection dialect="org.hibernate.dialect.MySQL5InnoDBDialect" driver="com.mysql.jdbc.Driver" jdbcurl="jdbc:mysql://<%= crucibledb_hostname %>/fisheye" password="bobbins" username="dev" maxPoolSize="20" minPoolSize="5" driverSource="bundled"/><parameters>useUnicode=true
+                                                                  characterEncoding=UTF8
+                                                                  connectionCollation=UTF8_bin
+                                                                  </parameters></database><snippet/><repository-management repositories-root="/usr/local/crucible/fecru-<%= version %>/managed-repos"/></config>
