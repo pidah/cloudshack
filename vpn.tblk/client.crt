@@ -1,0 +1,72 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 3 (0x3)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=GB, ST=UK, L=London, O=MOJ, OU=changeme, CN=MOJ/name=moj/emailAddress=peter.idah@gmail.com
+        Validity
+            Not Before: Feb  6 14:22:22 2014 GMT
+            Not After : Feb  4 14:22:22 2024 GMT
+        Subject: C=GB, ST=UK, L=London, O=MOJ, OU=moj, CN=client/name=moj/emailAddress=peter.idah@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:e7:f2:14:b1:95:f6:bc:dd:c0:76:f0:50:cd:0e:
+                    21:04:f0:db:ce:7a:eb:1d:ce:f1:a7:ca:fa:b7:61:
+                    1e:fc:fa:00:e2:f3:89:22:dd:b5:1e:1d:75:f3:d2:
+                    64:5e:2a:e7:97:4d:a6:12:10:15:bc:b2:80:d5:48:
+                    e6:53:d4:56:4b:f0:0b:3d:96:03:c0:07:2f:97:a6:
+                    22:81:68:15:83:6f:fb:40:5b:09:4e:88:e0:03:61:
+                    50:1e:10:bd:17:cc:29:04:7d:7f:d4:bd:83:1d:5e:
+                    05:cb:c1:f7:d0:66:3a:e4:23:ce:84:3a:96:24:49:
+                    52:99:7c:df:97:e6:b5:a8:b9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                0F:47:F9:DA:F4:B8:65:44:28:D4:B1:BC:88:FA:B2:18:47:A7:D7:C6
+            X509v3 Authority Key Identifier: 
+                keyid:77:85:86:45:82:46:E4:DE:D3:5E:EB:12:A0:89:D4:05:27:2A:DD:52
+                DirName:/C=GB/ST=UK/L=London/O=MOJ/OU=changeme/CN=MOJ/name=moj/emailAddress=peter.idah@gmail.com
+                serial:93:74:C4:35:45:45:D3:98
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         9a:a2:07:46:d0:18:5a:5e:76:1c:d9:91:e2:fb:0e:2a:1c:83:
+         1e:58:74:c7:d4:fc:31:83:e8:52:65:79:b6:ff:4d:8d:30:fd:
+         c0:05:df:bd:f4:84:ee:70:fa:3b:ef:6a:ff:bd:6c:5b:32:be:
+         85:57:7c:d0:ab:5f:08:0a:42:8d:c0:ab:47:7e:6d:85:b0:dd:
+         36:c6:a0:d5:51:42:29:cd:dd:bd:04:d1:70:f2:07:45:d9:02:
+         64:5a:13:aa:ec:98:71:69:ba:dd:2b:2a:13:7e:a3:3a:da:31:
+         82:13:72:8b:e9:47:5e:64:69:f7:3f:55:48:1e:91:6f:2f:37:
+         55:4d
+-----BEGIN CERTIFICATE-----
+MIID1jCCAz+gAwIBAgIBAzANBgkqhkiG9w0BAQUFADCBjTELMAkGA1UEBhMCR0Ix
+CzAJBgNVBAgTAlVLMQ8wDQYDVQQHEwZMb25kb24xDDAKBgNVBAoTA01PSjERMA8G
+A1UECxMIY2hhbmdlbWUxDDAKBgNVBAMTA01PSjEMMAoGA1UEKRMDbW9qMSMwIQYJ
+KoZIhvcNAQkBFhRwZXRlci5pZGFoQGdtYWlsLmNvbTAeFw0xNDAyMDYxNDIyMjJa
+Fw0yNDAyMDQxNDIyMjJaMIGLMQswCQYDVQQGEwJHQjELMAkGA1UECBMCVUsxDzAN
+BgNVBAcTBkxvbmRvbjEMMAoGA1UEChMDTU9KMQwwCgYDVQQLEwNtb2oxDzANBgNV
+BAMTBmNsaWVudDEMMAoGA1UEKRMDbW9qMSMwIQYJKoZIhvcNAQkBFhRwZXRlci5p
+ZGFoQGdtYWlsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5/IUsZX2
+vN3AdvBQzQ4hBPDbznrrHc7xp8r6t2Ee/PoA4vOJIt21Hh1189JkXirnl02mEhAV
+vLKA1UjmU9RWS/ALPZYDwAcvl6YigWgVg2/7QFsJTojgA2FQHhC9F8wpBH1/1L2D
+HV4Fy8H30GY65CPOhDqWJElSmXzfl+a1qLkCAwEAAaOCAUQwggFAMAkGA1UdEwQC
+MAAwLQYJYIZIAYb4QgENBCAWHkVhc3ktUlNBIEdlbmVyYXRlZCBDZXJ0aWZpY2F0
+ZTAdBgNVHQ4EFgQUD0f52vS4ZUQo1LG8iPqyGEen18YwgcIGA1UdIwSBujCBt4AU
+d4WGRYJG5N7TXusSoInUBScq3VKhgZOkgZAwgY0xCzAJBgNVBAYTAkdCMQswCQYD
+VQQIEwJVSzEPMA0GA1UEBxMGTG9uZG9uMQwwCgYDVQQKEwNNT0oxETAPBgNVBAsT
+CGNoYW5nZW1lMQwwCgYDVQQDEwNNT0oxDDAKBgNVBCkTA21vajEjMCEGCSqGSIb3
+DQEJARYUcGV0ZXIuaWRhaEBnbWFpbC5jb22CCQCTdMQ1RUXTmDATBgNVHSUEDDAK
+BggrBgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEFBQADgYEAmqIHRtAY
+Wl52HNmR4vsOKhyDHlh0x9T8MYPoUmV5tv9NjTD9wAXfvfSE7nD6O+9q/71sWzK+
+hVd80KtfCApCjcCrR35thbDdNsag1VFCKc3dvQTRcPIHRdkCZFoTquyYcWm63Ssq
+E36jOtoxghNyi+lHXmRp9z9VSB6Rby83VU0=
+-----END CERTIFICATE-----
